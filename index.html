@@ -1,0 +1,34 @@
+<!DOCTYPE html5>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Practice Project</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="main">
+        <h1>Text <span><img class="arrow" src="./icons8-arrow-50 .png" alt="" ></span>Emojis</h1>
+    <div id="endec">
+        <h3 id="enc-btn"><span><img src="./icons8-lock-50.png" alt=""></span>Encryt Text</h3>
+        <h3 id="dec-btn"><span><img src="./icons8-lock-open-50.png" alt=""></span>Decrypt Emojis</h3>
+    </div>
+    <div id="encryption">
+        <h5>1.Type a massage</h5>
+        <textarea placeholder="Type here..." id="txtmsg" ></textarea>
+        <h5>2.Set a Password</h5>
+        <input type="password" id="password" placeholder="Eg:123">
+        <button id="encrypt-btn"><span><img src="./icons8-lock-50.png" alt=""></span>Encrypt Text</button>
+    </div>
+    <div id="decryption">
+        <h5>1.Paste encrypted emojis</h5>
+        <textarea placeholder="Type here..." id="emjmsg" ></textarea>
+        <h5>2.Type the  Password</h5>
+        <input type="password" id="finalpassword" placeholder="Eg:123">
+        <button id="decrypt-btn"><span><img src="./icons8-lock-open-50.png" alt=""></span>Decrypt Emojis</button>
+    </div>
+    <div id="result"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
